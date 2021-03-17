@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+  service:
+    build: 
+      context: .
+      target: service
+    ports:
+      - "8000:8000"
+  cli:
+    build: 
+      context: .
+      target: cli
+    stdin_open: true
+    tty: true
