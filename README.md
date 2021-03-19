@@ -1,7 +1,10 @@
 # portscan
 This project was completed as part of the interview process with twilio; 2021/02/03.
 This repository provides: a port scanning service running in a container that uses a ReST API, a standalone port scanning CLI application in another container, and a mode of the CLI where it uses the ReST API to run the port scan. GO developers can just build and run the CLI in standalone mode if they prefer to not use Docker containers.
+
 See the Problem statement at the end of the document for more details.
+
+The context of this repo is as a "take home test" for an interview. My take of the expectations is this: better than white board code, but less than a full production app. In particular, tests will be skipped, or minimal at best.
 ## Requirements
 * You need to have docker (engine and compose) installed. This was tested with client 20.10.1 and server 19.03.13.
 * The CLI can be run in a docker container, or built and run on your host. The later will require having GOLANG
