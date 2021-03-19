@@ -1,5 +1,11 @@
 package main
 
+//
+// TESTING IS MINIMAL
+// For a take home test (interview) I consider the task to show I can code, and know
+// test the test pattern. I did not create a full produciton app or associated tests.
+//
+
 import (
 	"encoding/json"
 	"fmt"
