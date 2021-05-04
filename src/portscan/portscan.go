@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"portscan/src/scan"
+	"github.com/paulfdunn/portscan/src/scan"
 )
 
 const (

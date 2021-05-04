@@ -9,8 +9,9 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"portscan/src/scan"
 	"testing"
+
+	"github.com/paulfdunn/portscan/src/scan"
 )
 
 var (

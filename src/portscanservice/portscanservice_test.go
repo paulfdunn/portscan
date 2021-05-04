@@ -12,9 +12,10 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
-	"portscan/src/scan"
 	"testing"
 	"time"
+
+	"github.com/paulfdunn/portscan/src/scan"
 )
 
 // TestQueryParams validates that any bad combination of query parameters does return bad status.
